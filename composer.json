@@ -1,0 +1,24 @@
+{
+    "name": "marklestermorta/semaphoreapi-laravel",
+    "description": "Laravel wrapper for the Semaphore SMS Api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Lester Morta",
+            "email": "marklester10.mlsm@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MarkLesterMorta\\Semaphore\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarkLesterMorta\\Semaphore\\SemaphoreApiServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'SEMAPHORE_API_KEY' => env('SEMAPHORE_API_KEY', null),
+    'SEMAPHORE_SENDER_NAME' => env('SEMAPHORE_SENDER_NAME', 'SEMAPHORE'),
+];
